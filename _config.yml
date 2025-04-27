@@ -1,0 +1,12 @@
+title: Mi Portafolio con TDD y ORM
+description: Un portafolio demostrando TDD y ORM con JSON
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Configuración para GitHub Pages
+url: "https://tusuario.github.io"
+baseurl: "/portfolio-jekyll-tdd"
+
+# ORM configuration
+data_source: "_data/projects.json"
