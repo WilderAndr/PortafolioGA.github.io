@@ -1,12 +1,8 @@
-title: Mi Portafolio con TDD y ORM
-description: Un portafolio demostrando TDD y ORM con JSON
-theme: minima
-plugins:
-  - jekyll-feed
+source "https://rubygems.org"
 
-# Configuración para GitHub Pages
-url: "https://tusuario.github.io"
-baseurl: "/portfolio-jekyll-tdd"
+gem "jekyll", "~> 4.3"
+gem "minima", "~> 2.5"
 
-# ORM configuration
-data_source: "_data/projects.json"
+group :jekyll_plugins do
+  gem "jekyll-feed"
+end
