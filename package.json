@@ -1,0 +1,11 @@
+{
+  "name": "portfolio-jekyll-tdd",
+  "version": "1.0.0",
+  "description": "Portafolio con Jekyll, TDD y ORM JSON",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
